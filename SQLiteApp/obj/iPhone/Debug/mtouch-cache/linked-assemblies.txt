@@ -1,0 +1,9 @@
+/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/iPhone/Debug/mtouch-cache/Link/System.Core.dll
+/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
+/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/iPhone/Debug/mtouch-cache/Link/monotouch.dll
+/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/iPhone/Debug/mtouch-cache/Link/System.dll
+/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/iPhone/Debug/mtouch-cache/Link/Mono.Data.Sqlite.dll
+/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/iPhone/Debug/mtouch-cache/Link/System.Data.dll
+/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/iPhone/Debug/mtouch-cache/Link/System.Xml.dll
+/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/iPhone/Debug/mtouch-cache/Link/SQLiteApp.exe
+/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/iPhone/Debug/mtouch-cache/Link/System.Transactions.dll

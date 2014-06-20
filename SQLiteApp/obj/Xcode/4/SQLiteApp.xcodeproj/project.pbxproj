@@ -1,0 +1,230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11FD55CD0000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158E626B0000000000000000 /* UIKit.framework */; };
+		3392F9000000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3724059E0000000000000000 /* MapKit.framework */; };
+		8C6619800000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C576E3600000000000000000 /* Foundation.framework */; };
+		3C3143E10000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2507F0000000000000000 /* CoreGraphics.framework */; };
+		30A10D7B0000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34321A190000000000000000 /* Default-568h@2x.png */; };
+		5D4761300000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96582B100000000000000000 /* Info.plist */; };
+		33FF36FD0000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3790439B0000000000000000 /* Entitlements.plist */; };
+		2229F7E70000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BB04850000000000000000 /* MainStoryboard.storyboard */; };
+		1594DA300000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 1925E6CE0000000000000000 /* AppDelegate.h */; };
+		17110BD50000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA218730000000000000000 /* AppDelegate.m */; };
+		2FD5810B0000000000000000 /* SQLiteAppViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 33668DA90000000000000000 /* SQLiteAppViewController.h */; };
+		508E9A300000000000000000 /* SQLiteAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899F64100000000000000000 /* SQLiteAppViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31FECB7A0000000000000000 /* SQLiteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "SQLiteApp.app"; path = "SQLiteApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		158E626B0000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		3724059E0000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		C576E3600000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		3FC2507F0000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		34321A190000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		96582B100000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		3790439B0000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		25BB04850000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		1925E6CE0000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		1AA218730000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		33668DA90000000000000000 /* SQLiteAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SQLiteAppViewController.h"; path = "SQLiteAppViewController.h"; sourceTree = "<group>"; };
+		899F64100000000000000000 /* SQLiteAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SQLiteAppViewController.m"; path = "SQLiteAppViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75E10E000000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FD55CD0000000000000000 /* UIKit.framework in Frameworks */,
+				3392F9000000000000000000 /* MapKit.framework in Frameworks */,
+				8C6619800000000000000000 /* Foundation.framework in Frameworks */,
+				3C3143E10000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		208F529C0000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				B2906E800000000000000000 /* SQLiteApp */,
+				2B4278760000000000000000 /* Frameworks */,
+				15DC2CC20000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15DC2CC20000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31FECB7A0000000000000000 /* SQLiteApp.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		2B4278760000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				158E626B0000000000000000 /* UIKit.framework */,
+				3724059E0000000000000000 /* MapKit.framework */,
+				C576E3600000000000000000 /* Foundation.framework */,
+				3FC2507F0000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		B2906E800000000000000000 /* SQLiteApp */ = {
+			isa = PBXGroup;
+			children = (
+				1925E6CE0000000000000000 /* AppDelegate.h */,
+				34321A190000000000000000 /* Default-568h@2x.png */,
+				3790439B0000000000000000 /* Entitlements.plist */,
+				96582B100000000000000000 /* Info.plist */,
+				25BB04850000000000000000 /* MainStoryboard.storyboard */,
+				33668DA90000000000000000 /* SQLiteAppViewController.h */,
+				18F303B20000000000000000 /* Supporting Files */,
+			);
+			name = "SQLiteApp";
+			sourceTree = "<group>";
+		};
+		18F303B20000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AA218730000000000000000 /* AppDelegate.m */,
+				899F64100000000000000000 /* SQLiteAppViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		114CB0980000000000000000 /* SQLiteApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274BA5A00000000000000000 /* Build configuration list for PBXNativeTarget "SQLiteApp" */;
+			buildPhases = (
+				2EA0A1F80000000000000000 /* Sources */,
+				75E10E000000000000000000 /* Frameworks */,
+				178B41830000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SQLiteApp";
+			productName = "SQLiteApp";
+			productReference = 31FECB7A0000000000000000 /* SQLiteApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6998ABE00000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1C987FC60000000000000000 /* Build configuration list for PBXProject "SQLiteApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 208F529C0000000000000000;
+			productRefGroup = 15DC2CC20000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				114CB0980000000000000000 /* SQLiteApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		178B41830000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A10D7B0000000000000000 /* Default-568h@2x.png in Resources */,
+				5D4761300000000000000000 /* Info.plist in Resources */,
+				33FF36FD0000000000000000 /* Entitlements.plist in Resources */,
+				2229F7E70000000000000000 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EA0A1F80000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1594DA300000000000000000 /* AppDelegate.h in Sources */,
+				17110BD50000000000000000 /* AppDelegate.m in Sources */,
+				2FD5810B0000000000000000 /* SQLiteAppViewController.h in Sources */,
+				508E9A300000000000000000 /* SQLiteAppViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51D591900000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		11E559EC0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "SQLiteApp";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C987FC60000000000000000 /* Build configuration list for PBXProject "SQLiteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51D591900000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		274BA5A00000000000000000 /* Build configuration list for PBXNativeTarget "SQLiteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E559EC0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6998ABE00000000000000000 /* Project object */;
+}

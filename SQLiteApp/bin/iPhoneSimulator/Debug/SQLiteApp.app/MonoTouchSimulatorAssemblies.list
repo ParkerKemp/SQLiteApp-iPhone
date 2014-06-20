@@ -1,0 +1,10 @@
+mscorlib.dll
+System.dll
+System.Core.dll
+Mono.Dynamic.Interpreter.dll
+System.Xml.dll
+Mono.Data.Sqlite.dll
+System.Data.dll
+Mono.Data.Tds.dll
+Mono.Security.dll
+System.Transactions.dll

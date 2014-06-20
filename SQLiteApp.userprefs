@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Jonathan's iPod touch" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SQLiteApp/Info.plist">
+    <Files>
+      <File FileName="SQLiteApp/Native Source/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="../../Desktop/SQLiteAppBackend/SQLiteApp/Database.cs" Line="1" Column="1" />
+      <File FileName="SQLiteApp/Info.plist" />
+      <File FileName="SQLiteApp/StoreNameSource.cs" Line="14" Column="4" />
+      <File FileName="../../Desktop/SQLiteAppBackend/SQLiteApp/Store.cs" Line="3" Column="9" />
+      <File FileName="SQLiteApp/Main.cs" Line="17" Column="1" />
+      <File FileName="SQLiteApp/Native Source/SQLiteAppViewController.cs" Line="10" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
