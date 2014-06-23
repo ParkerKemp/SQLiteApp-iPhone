@@ -112,19 +112,26 @@
     <Compile Include="..\..\..\Desktop\SQLiteAppBackend\SQLiteApp\Store.cs">
       <Link>Backend Source\Store.cs</Link>
     </Compile>
-    <Compile Include="Native Source\AppDelegate.cs" />
     <Compile Include="StoreNameSource.cs" />
-    <Compile Include="Native Source\SQLiteAppViewController.cs" />
-    <Compile Include="Native Source\SQLiteAppViewController.designer.cs">
-      <DependentUpon>SQLiteAppViewController.cs</DependentUpon>
+    <Compile Include="SearchStoresViewController.cs" />
+    <Compile Include="SearchStoresViewController.designer.cs">
+      <DependentUpon>SearchStoresViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="AllStoresViewController.cs" />
+    <Compile Include="AllStoresViewController.designer.cs">
+      <DependentUpon>AllStoresViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StoreDetailsViewController.cs" />
+    <Compile Include="StoreDetailsViewController.designer.cs">
+      <DependentUpon>StoreDetailsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppDelegate.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Folder Include="Native Source\" />
     <Folder Include="Content\" />
     <Folder Include="Backend Source\" />
   </ItemGroup>

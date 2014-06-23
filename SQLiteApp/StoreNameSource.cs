@@ -1,5 +1,6 @@
 ﻿using System;
 using MonoTouch.UIKit;
+using MonoTouch.Foundation;
 
 namespace SQLiteApp
 {
@@ -7,10 +8,12 @@ namespace SQLiteApp
 	{
 		Store[] _stores;
 		string _cellID = "StoreCell";
+		Action<Store> _selectFunc;
 
-		public StoreNameSource (Store[] stores)
+		public StoreNameSource (Store[] stores, Action<Store> selectFunc)
 		{
 			_stores = stores;
+			_selectFunc = selectFunc;
 		}
 
 		public override int RowsInSection(UITableView tableView, int section)
@@ -25,6 +28,11 @@ namespace SQLiteApp
 				cell = new UITableViewCell (UITableViewCellStyle.Default, _cellID);
 			cell.TextLabel.Text = _stores [indexPath.Row].StoreName;
 			return cell;
+		}
+
+		public override void RowSelected(UITableView tableView, NSIndexPath indexPath)
+		{
+			_selectFunc (_stores [indexPath.Row]);
 		}
 	}
 }
