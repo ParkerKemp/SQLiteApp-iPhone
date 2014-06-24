@@ -36,8 +36,22 @@ namespace SQLiteApp
 			_managerName.Text = Store.ManagerName;
 			_phoneNum.Text = Store.PhoneNum;
 			_orderDetailsButton.SetTitle(Store.TotalOrders.ToString (), UIControlState.Normal);
+
+			_orderDetailsButton.TouchUpInside += (sender, e) => {
+				PerformSegue("AllOrdersSegue", this);
+			};
 //			_totalOrders.Text = Store.TotalOrders.ToString();
 			_totalExpenses.Text = "$" + string.Format("{0:0.00}", Store.TotalExpenses);
+		}
+
+		public override void PrepareForSegue (UIStoryboardSegue segue, NSObject sender)
+		{
+			if (segue.Identifier == "AllOrdersSegue") {
+				var controller = segue.DestinationViewController as AllOrdersViewController;
+				controller.StoreID = Store.StoreID;
+				controller.StoreName = Store.StoreName;
+				return;
+			}
 		}
 	}
 }

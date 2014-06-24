@@ -8,6 +8,7 @@ namespace SQLiteApp
 	partial class SearchStoresViewController : UIViewController
 	{
 		public string SearchTerm { get; set;}
+		private Store _selectedStore;
 
 		public SearchStoresViewController (IntPtr handle) : base (handle)
 		{
@@ -28,7 +29,18 @@ namespace SQLiteApp
 
 		public void SelectStore(Store store)
 		{
+			_selectedStore = store;
+			PerformSegue ("StoreDetailsSegue", this);
+		}
 
+		public override void PrepareForSegue (UIStoryboardSegue segue, NSObject sender)
+		{
+			if(segue.Identifier == "StoreDetailsSegue")
+			{
+				var controller = segue.DestinationViewController as StoreDetailsViewController;
+				controller.Store = _selectedStore;
+				return;
+			}
 		}
 	}
 }

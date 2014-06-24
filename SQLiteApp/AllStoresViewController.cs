@@ -23,18 +23,21 @@ namespace SQLiteApp
 
 			_allStoresTable.Source = new StoreNameSource (allStores, SelectStore);
 
-			_searchField.ShouldReturn += (textField) => {
+			_searchField.ShouldReturn += (textField) => 
+			{
 				PerformSegue("SearchSegue", this);
 				return true;
 			};
 		}
 
-		public void SelectStore(Store store){
+		public void SelectStore(Store store)
+		{
 			_selectedStore = store;
 			PerformSegue ("StoreDetailsSegue", this);
 		}
 
-		public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender){
+		public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
+		{
 			if (segue.Identifier == "SearchSegue"){
 				var controller = segue.DestinationViewController as SearchStoresViewController;
 				controller.SearchTerm = _searchField.Text;

@@ -126,6 +126,19 @@
       <DependentUpon>StoreDetailsViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="AllOrdersViewController.cs" />
+    <Compile Include="AllOrdersViewController.designer.cs">
+      <DependentUpon>AllOrdersViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderSummarySource.cs" />
+    <Compile Include="OrderSummaryCell.cs" />
+    <Compile Include="OrderSummaryCell.designer.cs">
+      <DependentUpon>OrderSummaryCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetailViewController.cs" />
+    <Compile Include="OrderDetailViewController.designer.cs">
+      <DependentUpon>OrderDetailViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />

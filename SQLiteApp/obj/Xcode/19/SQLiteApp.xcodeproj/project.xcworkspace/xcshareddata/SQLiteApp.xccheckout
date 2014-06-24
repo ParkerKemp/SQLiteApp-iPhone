@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2EFE240F-D875-444F-AD0F-852C4E60FE5A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SQLiteApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>68962358-647D-44AF-A14C-8941EB29A987</key>
+		<string>ssh://github.com/ParkerKemp/SQLiteApp-iPhone.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SQLiteApp/obj/Xcode/19/SQLiteApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>68962358-647D-44AF-A14C-8941EB29A987</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ParkerKemp/SQLiteApp-iPhone.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>68962358-647D-44AF-A14C-8941EB29A987</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>68962358-647D-44AF-A14C-8941EB29A987</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SQLiteApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -16,11 +16,11 @@ namespace SQLiteApp
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UITableView _searchStoresTable { get; set; }
+		MonoTouch.UIKit.UITableView _searchStoresTable { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel _titleView { get; set; }
+		MonoTouch.UIKit.UILabel _titleView { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{

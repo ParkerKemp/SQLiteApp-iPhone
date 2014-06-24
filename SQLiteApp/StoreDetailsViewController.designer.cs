@@ -16,43 +16,43 @@ namespace SQLiteApp
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel _address { get; set; }
+		MonoTouch.UIKit.UILabel _address { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel _managerName { get; set; }
+		MonoTouch.UIKit.UILabel _managerName { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UIButton _orderDetailsButton { get; set; }
+		MonoTouch.UIKit.UIButton _orderDetailsButton { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel _phoneNum { get; set; }
+		MonoTouch.UIKit.UILabel _phoneNum { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel _sequenceNum { get; set; }
+		MonoTouch.UIKit.UILabel _sequenceNum { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel _storeID { get; set; }
+		MonoTouch.UIKit.UILabel _storeID { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel _storeName { get; set; }
+		MonoTouch.UIKit.UILabel _storeName { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel _storeNum { get; set; }
+		MonoTouch.UIKit.UILabel _storeNum { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel _territoryNum { get; set; }
+		MonoTouch.UIKit.UILabel _territoryNum { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel _totalExpenses { get; set; }
+		MonoTouch.UIKit.UILabel _totalExpenses { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{

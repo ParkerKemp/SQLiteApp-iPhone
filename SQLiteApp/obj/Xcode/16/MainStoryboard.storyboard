@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="53">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--All Stores View Controller - Stores-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="AllStoresViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NOE-M1-O9P"/>
+                        <viewControllerLayoutGuide type="bottom" id="3BP-1I-3bz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Stores" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="4">
+                                <rect key="frame" x="30" y="119" width="132" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="1" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="5">
+                                <rect key="frame" x="20" y="172" width="280" height="298"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="6">
+                                        <rect key="frame" x="0.0" y="22" width="280" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6" id="ldM-u6-EQX">
+                                            <rect key="frame" x="0.0" y="0.0" width="280" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="8">
+                                        <rect key="frame" x="0.0" y="66" width="280" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8" id="tNZ-4g-E8o">
+                                            <rect key="frame" x="0.0" y="0.0" width="280" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="10">
+                                        <rect key="frame" x="0.0" y="110" width="280" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="10" id="ugh-Gh-NxQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="280" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search for stores" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="70">
+                                <rect key="frame" x="19" y="80" width="284" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83137254901960789" green="0.83137254901960789" blue="0.83137254901960789" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Stores" id="64"/>
+                    <connections>
+                        <outlet property="_allStoresTable" destination="5" id="name-outlet-5"/>
+                        <outlet property="_searchField" destination="70" id="name-outlet-70"/>
+                        <segue destination="20" kind="push" identifier="SearchSegue" id="78"/>
+                        <segue destination="81" kind="push" identifier="StoreDetailsSegue" id="88"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1410" y="-778"/>
+        </scene>
+        <!--Search Stores View Controller-->
+        <scene sceneID="19">
+            <objects>
+                <viewController storyboardIdentifier="_searchStoresViewController" id="20" customClass="SearchStoresViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hTL-e6-h67"/>
+                        <viewControllerLayoutGuide type="bottom" id="7L4-gS-m0H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="23">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Stores" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="26">
+                                <rect key="frame" x="30" y="119" width="132" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="1" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="22">
+                                <rect key="frame" x="20" y="172" width="280" height="298"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="27">
+                                        <rect key="frame" x="0.0" y="22" width="280" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="27" id="KbX-SW-ija">
+                                            <rect key="frame" x="0.0" y="0.0" width="280" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="29">
+                                        <rect key="frame" x="0.0" y="66" width="280" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="29" id="fLu-yO-omF">
+                                            <rect key="frame" x="0.0" y="0.0" width="280" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="31">
+                                        <rect key="frame" x="0.0" y="110" width="280" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="31" id="wnP-gk-Y09">
+                                            <rect key="frame" x="0.0" y="0.0" width="280" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Searching for stores matching &quot;&quot;..." lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="45">
+                                <rect key="frame" x="19" y="79" width="266" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83137254901960789" green="0.83137254901960789" blue="0.83137254901960789" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="_searchStoresTable" destination="22" id="name-outlet-22"/>
+                        <outlet property="_titleView" destination="45" id="name-outlet-45"/>
+                        <segue destination="81" kind="push" identifier="SearchStoreDetailsSegue" id="90"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="33" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-918" y="-795"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="52">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="53" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="56">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="73"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="57" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1797" y="-778"/>
+        </scene>
+        <!--Store Details View Controller-->
+        <scene sceneID="80">
+            <objects>
+                <viewController id="81" customClass="StoreDetailsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="83"/>
+                        <viewControllerLayoutGuide type="bottom" id="84"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="82">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="(Store Name)" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="87">
+                                <rect key="frame" x="23" y="77" width="218" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Store ID:" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="92">
+                                <rect key="frame" x="23" y="170" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.49803921568627452" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Territory #:" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="94">
+                                <rect key="frame" x="23" y="200" width="121" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.49803921568627452" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Sequence #:" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="95">
+                                <rect key="frame" x="23" y="230" width="128" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.49803921568627452" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Address:" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="96">
+                                <rect key="frame" x="23" y="260" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.49803921568627452" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Store #:" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="97">
+                                <rect key="frame" x="23" y="320" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.49803921568627452" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Manager:" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="98">
+                                <rect key="frame" x="23" y="350" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.49803921568627452" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Phone #:" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="99">
+                                <rect key="frame" x="23" y="380" width="102" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.49803921568627452" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Total Expenses:" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="100">
+                                <rect key="frame" x="23" y="440" width="164" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.49803921568627452" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Total Orders:" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="101">
+                                <rect key="frame" x="23" y="410" width="142" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.49803921568627452" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(Store ID)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUu-dv-2Vu">
+                                <rect key="frame" x="148" y="174" width="164" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(Store ID)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="223">
+                                <rect key="frame" x="148" y="204" width="164" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(Store ID)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="224">
+                                <rect key="frame" x="148" y="234" width="164" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(Store ID)" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="225">
+                                <rect key="frame" x="148" y="264" width="164" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(Store ID)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="226">
+                                <rect key="frame" x="148" y="321" width="164" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(Store ID)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="227">
+                                <rect key="frame" x="148" y="351" width="164" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(Store ID)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="228">
+                                <rect key="frame" x="148" y="381" width="164" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(Store ID)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="230">
+                                <rect key="frame" x="148" y="448" width="164" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="240">
+                                <rect key="frame" x="254" y="410" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83137254901960778" green="0.83137254901960778" blue="0.83137254901960778" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="97" secondAttribute="leading" id="102"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="97" secondAttribute="leading" id="103"/>
+                            <constraint firstItem="100" firstAttribute="leading" secondItem="97" secondAttribute="leading" id="104"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="97" secondAttribute="leading" id="105"/>
+                            <constraint firstItem="94" firstAttribute="leading" secondItem="97" secondAttribute="leading" id="106"/>
+                            <constraint firstItem="95" firstAttribute="leading" secondItem="97" secondAttribute="leading" id="107"/>
+                            <constraint firstItem="96" firstAttribute="leading" secondItem="97" secondAttribute="leading" id="108"/>
+                            <constraint firstItem="92" firstAttribute="leading" secondItem="97" secondAttribute="leading" id="109"/>
+                            <constraint firstItem="98" firstAttribute="width" secondItem="97" secondAttribute="width" id="110"/>
+                            <constraint firstItem="99" firstAttribute="width" secondItem="97" secondAttribute="width" id="111"/>
+                            <constraint firstItem="100" firstAttribute="width" secondItem="97" secondAttribute="width" id="112"/>
+                            <constraint firstItem="101" firstAttribute="width" secondItem="97" secondAttribute="width" id="113"/>
+                            <constraint firstItem="94" firstAttribute="width" secondItem="97" secondAttribute="width" id="114"/>
+                            <constraint firstItem="95" firstAttribute="width" secondItem="97" secondAttribute="width" id="115"/>
+                            <constraint firstItem="96" firstAttribute="width" secondItem="97" secondAttribute="width" id="116"/>
+                            <constraint firstItem="92" firstAttribute="width" secondItem="97" secondAttribute="width" id="117"/>
+                            <constraint firstItem="94" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="118"/>
+                            <constraint firstItem="94" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="119"/>
+                            <constraint firstItem="94" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="120"/>
+                            <constraint firstItem="95" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="121"/>
+                            <constraint firstItem="94" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="122"/>
+                            <constraint firstItem="95" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="123"/>
+                            <constraint firstItem="96" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="124"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="98" secondAttribute="leading" id="125"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="98" secondAttribute="leading" id="126"/>
+                            <constraint firstItem="97" firstAttribute="centerX" secondItem="100" secondAttribute="centerX" id="127"/>
+                            <constraint firstItem="98" firstAttribute="centerX" secondItem="100" secondAttribute="centerX" id="128"/>
+                            <constraint firstItem="99" firstAttribute="centerX" secondItem="100" secondAttribute="centerX" id="129"/>
+                            <constraint firstItem="101" firstAttribute="centerX" secondItem="100" secondAttribute="centerX" id="130"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="131"/>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="132"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="133"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="134"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="135"/>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="136"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="137"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="138"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="139"/>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="140"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="141"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="142"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="143"/>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="144"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="145"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="146"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="147"/>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="148"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="149"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="150"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="151"/>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="152"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="153"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="154"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="155"/>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="156"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="157"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="158"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="159"/>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="160"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="161"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="162"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="163"/>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="164"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="165"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="166"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="167"/>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="168"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="169"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="170"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="171"/>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="172"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="173"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="174"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="175"/>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="176"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="177"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="178"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="179"/>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="180"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="181"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="182"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="183"/>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="184"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="185"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="100" secondAttribute="leading" id="186"/>
+                            <constraint firstItem="94" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="187"/>
+                            <constraint firstItem="95" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="188"/>
+                            <constraint firstItem="96" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="189"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="190"/>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="191"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="192"/>
+                            <constraint firstItem="100" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="193"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="194"/>
+                            <constraint firstItem="94" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="195"/>
+                            <constraint firstItem="95" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="196"/>
+                            <constraint firstItem="96" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="197"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="198"/>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="199"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="200"/>
+                            <constraint firstItem="100" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="201"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="202"/>
+                            <constraint firstItem="94" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="203"/>
+                            <constraint firstItem="95" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="204"/>
+                            <constraint firstItem="96" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="205"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="206"/>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="207"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="208"/>
+                            <constraint firstItem="100" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="209"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="210"/>
+                            <constraint firstItem="94" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="211"/>
+                            <constraint firstItem="95" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="212"/>
+                            <constraint firstItem="96" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="213"/>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="214"/>
+                            <constraint firstItem="98" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="215"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="216"/>
+                            <constraint firstItem="100" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="217"/>
+                            <constraint firstItem="101" firstAttribute="leading" secondItem="92" secondAttribute="leading" id="218"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="_address" destination="225" id="name-outlet-225"/>
+                        <outlet property="_managerName" destination="227" id="name-outlet-227"/>
+                        <outlet property="_orderDetailsButton" destination="240" id="name-outlet-240"/>
+                        <outlet property="_phoneNum" destination="228" id="name-outlet-228"/>
+                        <outlet property="_sequenceNum" destination="224" id="name-outlet-224"/>
+                        <outlet property="_storeID" destination="ZUu-dv-2Vu" id="name-outlet-ZUu-dv-2Vu"/>
+                        <outlet property="_storeName" destination="87" id="name-outlet-87"/>
+                        <outlet property="_storeNum" destination="226" id="name-outlet-226"/>
+                        <outlet property="_territoryNum" destination="223" id="name-outlet-223"/>
+                        <outlet property="_totalExpenses" destination="230" id="name-outlet-230"/>
+                        <segue destination="232" kind="push" identifier="AllOrdersSegue" id="238"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="85" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1363" y="-78"/>
+        </scene>
+        <!--All Orders View Controller-->
+        <scene sceneID="231">
+            <objects>
+                <viewController id="232" customClass="AllOrdersViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="234"/>
+                        <viewControllerLayoutGuide type="bottom" id="235"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="233">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Orders at (Store Name)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69B-E8-uL6">
+                                <rect key="frame" x="20" y="81" width="223" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="30" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="ava-Ub-aTF">
+                                <rect key="frame" x="0.0" y="173" width="320" height="307"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OrderCell" rowHeight="30" id="3cA-6e-YDH" customClass="OrderSummaryCell">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3cA-6e-YDH" id="EyU-n5-lhn">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="29"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJf-iL-3bS">
+                                                    <rect key="frame" x="20" y="4" width="42" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="100" id="u5l-UJ-S3U"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jde-V0-hUV">
+                                                    <rect key="frame" x="120" y="4" width="42" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="200" id="ArY-IE-Ru9"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="CJf-iL-3bS" firstAttribute="leading" secondItem="EyU-n5-lhn" secondAttribute="leading" constant="20" id="PJ8-Es-thG"/>
+                                                <constraint firstItem="jde-V0-hUV" firstAttribute="leading" secondItem="CJf-iL-3bS" secondAttribute="trailing" id="aZX-E2-m6j"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="_cost" destination="CJf-iL-3bS" id="name-outlet-CJf-iL-3bS"/>
+                                            <outlet property="_date" destination="jde-V0-hUV" id="name-outlet-jde-V0-hUV"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cost" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4oM-fD-Rz3">
+                                <rect key="frame" x="20" y="144" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oGU-L0-9V0">
+                                <rect key="frame" x="120" y="144" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83137254901960778" green="0.83137254901960778" blue="0.83137254901960778" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="_orderSummaryTable" destination="ava-Ub-aTF" id="name-outlet-ava-Ub-aTF"/>
+                        <outlet property="_storeName" destination="69B-E8-uL6" id="name-outlet-69B-E8-uL6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="236" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-823" y="-85"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="246">
+            <objects>
+                <viewController id="247" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="249"/>
+                        <viewControllerLayoutGuide type="bottom" id="250"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="248">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.83137254901960778" green="0.83137254901960778" blue="0.83137254901960778" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="251" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-370" y="-114"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="88"/>
+    </inferredMetricsTieBreakers>
+</document>

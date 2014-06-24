@@ -1,4 +1,4 @@
-# Version: 7.2.3.39 (fc6f56b)
+# Version: 7.2.4.4 (5485ac2)
 # [first argument, ignore] # /Users/Parker/Projects/SQLiteApp/SQLiteApp/bin/iPhoneSimulator/Debug/mtouch.exe
 /Developer/MonoTouch/usr/bin/mtouch \
 	-sdkroot \
