@@ -9,4 +9,12 @@
 
 @implementation OrderDetailViewController
 
+@synthesize _contactName = __contactName;
+@synthesize _date = __date;
+@synthesize _orderID = __orderID;
+@synthesize _rushOrder = __rushOrder;
+@synthesize _storeName = __storeName;
+@synthesize _totalCost = __totalCost;
+@synthesize _totalItems = __totalItems;
+
 @end

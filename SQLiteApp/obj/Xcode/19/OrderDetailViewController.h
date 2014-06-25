@@ -10,6 +10,27 @@
 
 
 @interface OrderDetailViewController : UIViewController {
+	UILabel *__contactName;
+	UILabel *__date;
+	UILabel *__orderID;
+	UILabel *__rushOrder;
+	UILabel *__storeName;
+	UILabel *__totalCost;
+	UILabel *__totalItems;
 }
+
+@property (nonatomic, retain) IBOutlet UILabel *_contactName;
+
+@property (nonatomic, retain) IBOutlet UILabel *_date;
+
+@property (nonatomic, retain) IBOutlet UILabel *_orderID;
+
+@property (nonatomic, retain) IBOutlet UILabel *_rushOrder;
+
+@property (nonatomic, retain) IBOutlet UILabel *_storeName;
+
+@property (nonatomic, retain) IBOutlet UILabel *_totalCost;
+
+@property (nonatomic, retain) IBOutlet UILabel *_totalItems;
 
 @end

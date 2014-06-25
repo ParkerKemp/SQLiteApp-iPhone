@@ -31,7 +31,7 @@ namespace SQLiteApp
 
 			Database database = new Database ("Content/Stores.sqlite");
 
-			_storeName.Text = StoreName;
+			_storeName.Text = "Orders from " + StoreName;
 
 			_orderSummaryTable.Source = new OrderSummarySource (database.GetOrdersForStore (StoreID), SelectOrder);
 		}
@@ -48,6 +48,7 @@ namespace SQLiteApp
 			{
 				var controller = segue.DestinationViewController as OrderDetailViewController;
 				controller.Order = _selectedOrder;
+				controller.StoreName = StoreName;
 				return;
 			}
 		}

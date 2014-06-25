@@ -10,6 +10,7 @@ namespace SQLiteApp
 	public partial class OrderDetailViewController : UIViewController
 	{
 		public Order Order{ get; set;}
+		public string StoreName{ get; set;}
 
 		public OrderDetailViewController (IntPtr handle) : base (handle)
 		{
@@ -17,17 +18,20 @@ namespace SQLiteApp
 
 		public override void DidReceiveMemoryWarning ()
 		{
-			// Releases the view if it doesn't have a superview.
 			base.DidReceiveMemoryWarning ();
-			
-			// Release any cached data, images, etc that aren't in use.
 		}
 
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
 			
-			// Perform any additional setup after loading the view, typically from a nib.
+			_storeName.Text = "Order from " + StoreName;
+			_orderID.Text = Order.OrderID;
+			_date.Text = Order.Date;
+			_totalItems.Text = Order.TotalItems.ToString();
+			_totalCost.Text = "$" + string.Format("{0:0.00}", Order.TotalCost);
+			_contactName.Text = Order.ContactName;
+			_rushOrder.Text = Order.RushOrder ? "Yes" : "No";
 		}
 	}
 }
