@@ -112,32 +112,32 @@
     <Compile Include="..\..\..\Desktop\SQLiteAppBackend\SQLiteApp\Store.cs">
       <Link>Backend Source\Store.cs</Link>
     </Compile>
-    <Compile Include="StoreNameSource.cs" />
-    <Compile Include="SearchStoresViewController.cs" />
-    <Compile Include="SearchStoresViewController.designer.cs">
-      <DependentUpon>SearchStoresViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AllStoresViewController.cs" />
-    <Compile Include="AllStoresViewController.designer.cs">
-      <DependentUpon>AllStoresViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="StoreDetailsViewController.cs" />
-    <Compile Include="StoreDetailsViewController.designer.cs">
-      <DependentUpon>StoreDetailsViewController.cs</DependentUpon>
-    </Compile>
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="AllOrdersViewController.cs" />
-    <Compile Include="AllOrdersViewController.designer.cs">
+    <Compile Include="View Controllers\AllOrdersViewController.cs" />
+    <Compile Include="View Controllers\AllOrdersViewController.designer.cs">
       <DependentUpon>AllOrdersViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="OrderSummarySource.cs" />
-    <Compile Include="OrderSummaryCell.cs" />
-    <Compile Include="OrderSummaryCell.designer.cs">
-      <DependentUpon>OrderSummaryCell.cs</DependentUpon>
+    <Compile Include="View Controllers\AllStoresViewController.cs" />
+    <Compile Include="View Controllers\AllStoresViewController.designer.cs">
+      <DependentUpon>AllStoresViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="OrderDetailViewController.cs" />
-    <Compile Include="OrderDetailViewController.designer.cs">
+    <Compile Include="View Controllers\OrderDetailViewController.cs" />
+    <Compile Include="View Controllers\OrderDetailViewController.designer.cs">
       <DependentUpon>OrderDetailViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View Controllers\SearchStoresViewController.cs" />
+    <Compile Include="View Controllers\SearchStoresViewController.designer.cs">
+      <DependentUpon>SearchStoresViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View Controllers\StoreDetailsViewController.cs" />
+    <Compile Include="View Controllers\StoreDetailsViewController.designer.cs">
+      <DependentUpon>StoreDetailsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableView Sources\OrderSummarySource.cs" />
+    <Compile Include="TableView Sources\StoreNameSource.cs" />
+    <Compile Include="TableView Sources\Cell Prototypes\OrderSummaryCell.cs" />
+    <Compile Include="TableView Sources\Cell Prototypes\OrderSummaryCell.designer.cs">
+      <DependentUpon>OrderSummaryCell.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -147,6 +147,9 @@
   <ItemGroup>
     <Folder Include="Content\" />
     <Folder Include="Backend Source\" />
+    <Folder Include="View Controllers\" />
+    <Folder Include="TableView Sources\" />
+    <Folder Include="TableView Sources\Cell Prototypes\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\..\..\Desktop\SQLiteAppBackend\SQLiteApp\Stores.sqlite">

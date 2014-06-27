@@ -7,7 +7,7 @@ namespace SQLiteApp
 	public class StoreNameSource : UITableViewSource
 	{
 		Store[] _stores;
-		string _cellID = "StoreCell";
+		const string _cellID = "StoreCell";
 		Action<Store> _selectFunc;
 
 		public StoreNameSource (Store[] stores, Action<Store> selectFunc)
