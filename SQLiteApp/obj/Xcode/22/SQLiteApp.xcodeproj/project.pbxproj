@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31689F970000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F9AC350000000000000000 /* UIKit.framework */; };
+		F6D362C00000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FE42CA0000000000000000 /* MapKit.framework */; };
+		24A09EC40000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2831AB620000000000000000 /* Foundation.framework */; };
+		180B810D0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9C8DAB0000000000000000 /* CoreGraphics.framework */; };
+		3F4E24AD0000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF314B00000000000000000 /* Default-568h@2x.png */; };
+		14818D450000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 181299E30000000000000000 /* Info.plist */; };
+		2AC4E2F00000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63D5ACD00000000000000000 /* Entitlements.plist */; };
+		F0E88CA00000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34681BB70000000000000000 /* MainStoryboard.storyboard */; };
+		2B640A9E0000000000000000 /* Delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF5173C0000000000000000 /* Delete.png */; };
+		325340BE0000000000000000 /* Edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E44D5C0000000000000000 /* Edit.png */; };
+		207E01A80000000000000000 /* PlusSign.png in Resources */ = {isa = PBXBuildFile; fileRef = 240F0E460000000000000000 /* PlusSign.png */; };
+		25BE23070000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 294F2FA50000000000000000 /* AppDelegate.h */; };
+		31ED7A860000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 357E87240000000000000000 /* AppDelegate.m */; };
+		AB1EFBC00000000000000000 /* AllStoresViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = E42FC5A00000000000000000 /* AllStoresViewController.h */; };
+		1FE558540000000000000000 /* AllStoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 237664F20000000000000000 /* AllStoresViewController.m */; };
+		1E0360770000000000000000 /* OrderDetailViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 21946D150000000000000000 /* OrderDetailViewController.h */; };
+		26A1AB580000000000000000 /* OrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A32B7F60000000000000000 /* OrderDetailViewController.m */; };
+		4A641ED00000000000000000 /* SearchStoresViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 8374E8B00000000000000000 /* SearchStoresViewController.h */; };
+		381124360000000000000000 /* SearchStoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA230D40000000000000000 /* SearchStoresViewController.m */; };
+		362F2C590000000000000000 /* StoreDetailsViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 39C038F70000000000000000 /* StoreDetailsViewController.h */; };
+		17C4CF8C0000000000000000 /* StoreDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B55DC2A0000000000000000 /* StoreDetailsViewController.m */; };
+		EC0BE7300000000000000000 /* OrderSummaryCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 1251CB110000000000000000 /* OrderSummaryCell.h */; };
+		5BCAD5A00000000000000000 /* OrderSummaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DB9F800000000000000000 /* OrderSummaryCell.m */; };
+		25A33BCC0000000000000000 /* AllOrdersViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2934486A0000000000000000 /* AllOrdersViewController.h */; };
+		3AD6A4640000000000000000 /* AllOrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E67B1020000000000000000 /* AllOrdersViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3872BCF20000000000000000 /* SQLiteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "SQLiteApp.app"; path = "SQLiteApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F9AC350000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		12FE42CA0000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		2831AB620000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		1B9C8DAB0000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		2DF314B00000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		181299E30000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		63D5ACD00000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		34681BB70000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		2EF5173C0000000000000000 /* Delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Delete.png"; path = "Delete.png"; sourceTree = "<group>"; };
+		35E44D5C0000000000000000 /* Edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Edit.png"; path = "Edit.png"; sourceTree = "<group>"; };
+		240F0E460000000000000000 /* PlusSign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PlusSign.png"; path = "PlusSign.png"; sourceTree = "<group>"; };
+		294F2FA50000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		357E87240000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		E42FC5A00000000000000000 /* AllStoresViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AllStoresViewController.h"; path = "AllStoresViewController.h"; sourceTree = "<group>"; };
+		237664F20000000000000000 /* AllStoresViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AllStoresViewController.m"; path = "AllStoresViewController.m"; sourceTree = "<group>"; };
+		21946D150000000000000000 /* OrderDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "OrderDetailViewController.h"; path = "OrderDetailViewController.h"; sourceTree = "<group>"; };
+		2A32B7F60000000000000000 /* OrderDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "OrderDetailViewController.m"; path = "OrderDetailViewController.m"; sourceTree = "<group>"; };
+		8374E8B00000000000000000 /* SearchStoresViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SearchStoresViewController.h"; path = "SearchStoresViewController.h"; sourceTree = "<group>"; };
+		3BA230D40000000000000000 /* SearchStoresViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SearchStoresViewController.m"; path = "SearchStoresViewController.m"; sourceTree = "<group>"; };
+		39C038F70000000000000000 /* StoreDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "StoreDetailsViewController.h"; path = "StoreDetailsViewController.h"; sourceTree = "<group>"; };
+		1B55DC2A0000000000000000 /* StoreDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "StoreDetailsViewController.m"; path = "StoreDetailsViewController.m"; sourceTree = "<group>"; };
+		1251CB110000000000000000 /* OrderSummaryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "OrderSummaryCell.h"; path = "OrderSummaryCell.h"; sourceTree = "<group>"; };
+		94DB9F800000000000000000 /* OrderSummaryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "OrderSummaryCell.m"; path = "OrderSummaryCell.m"; sourceTree = "<group>"; };
+		2934486A0000000000000000 /* AllOrdersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AllOrdersViewController.h"; path = "AllOrdersViewController.h"; sourceTree = "<group>"; };
+		3E67B1020000000000000000 /* AllOrdersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AllOrdersViewController.m"; path = "AllOrdersViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E9D28600000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31689F970000000000000000 /* UIKit.framework in Frameworks */,
+				F6D362C00000000000000000 /* MapKit.framework in Frameworks */,
+				24A09EC40000000000000000 /* Foundation.framework in Frameworks */,
+				180B810D0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		270344140000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				119CF8600000000000000000 /* SQLiteApp */,
+				31B669EE0000000000000000 /* Frameworks */,
+				1C501E3A0000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C501E3A0000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3872BCF20000000000000000 /* SQLiteApp.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		31B669EE0000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34F9AC350000000000000000 /* UIKit.framework */,
+				12FE42CA0000000000000000 /* MapKit.framework */,
+				2831AB620000000000000000 /* Foundation.framework */,
+				1B9C8DAB0000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		119CF8600000000000000000 /* SQLiteApp */ = {
+			isa = PBXGroup;
+			children = (
+				2934486A0000000000000000 /* AllOrdersViewController.h */,
+				E42FC5A00000000000000000 /* AllStoresViewController.h */,
+				294F2FA50000000000000000 /* AppDelegate.h */,
+				2DF314B00000000000000000 /* Default-568h@2x.png */,
+				2EF5173C0000000000000000 /* Delete.png */,
+				35E44D5C0000000000000000 /* Edit.png */,
+				63D5ACD00000000000000000 /* Entitlements.plist */,
+				181299E30000000000000000 /* Info.plist */,
+				34681BB70000000000000000 /* MainStoryboard.storyboard */,
+				21946D150000000000000000 /* OrderDetailViewController.h */,
+				1251CB110000000000000000 /* OrderSummaryCell.h */,
+				240F0E460000000000000000 /* PlusSign.png */,
+				8374E8B00000000000000000 /* SearchStoresViewController.h */,
+				39C038F70000000000000000 /* StoreDetailsViewController.h */,
+				5A4B17900000000000000000 /* Supporting Files */,
+			);
+			name = "SQLiteApp";
+			sourceTree = "<group>";
+		};
+		5A4B17900000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E67B1020000000000000000 /* AllOrdersViewController.m */,
+				237664F20000000000000000 /* AllStoresViewController.m */,
+				357E87240000000000000000 /* AppDelegate.m */,
+				2A32B7F60000000000000000 /* OrderDetailViewController.m */,
+				94DB9F800000000000000000 /* OrderSummaryCell.m */,
+				3BA230D40000000000000000 /* SearchStoresViewController.m */,
+				1B55DC2A0000000000000000 /* StoreDetailsViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30B7FA620000000000000000 /* SQLiteApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBF97180000000000000000 /* Build configuration list for PBXNativeTarget "SQLiteApp" */;
+			buildPhases = (
+				351493700000000000000000 /* Sources */,
+				6E9D28600000000000000000 /* Frameworks */,
+				1DFF32FB0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SQLiteApp";
+			productName = "SQLiteApp";
+			productReference = 3872BCF20000000000000000 /* SQLiteApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2604D4880000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 230C713E0000000000000000 /* Build configuration list for PBXProject "SQLiteApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 270344140000000000000000;
+			productRefGroup = 1C501E3A0000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30B7FA620000000000000000 /* SQLiteApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DFF32FB0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4E24AD0000000000000000 /* Default-568h@2x.png in Resources */,
+				14818D450000000000000000 /* Info.plist in Resources */,
+				2AC4E2F00000000000000000 /* Entitlements.plist in Resources */,
+				F0E88CA00000000000000000 /* MainStoryboard.storyboard in Resources */,
+				2B640A9E0000000000000000 /* Delete.png in Resources */,
+				325340BE0000000000000000 /* Edit.png in Resources */,
+				207E01A80000000000000000 /* PlusSign.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		351493700000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BE23070000000000000000 /* AppDelegate.h in Sources */,
+				31ED7A860000000000000000 /* AppDelegate.m in Sources */,
+				AB1EFBC00000000000000000 /* AllStoresViewController.h in Sources */,
+				1FE558540000000000000000 /* AllStoresViewController.m in Sources */,
+				1E0360770000000000000000 /* OrderDetailViewController.h in Sources */,
+				26A1AB580000000000000000 /* OrderDetailViewController.m in Sources */,
+				4A641ED00000000000000000 /* SearchStoresViewController.h in Sources */,
+				381124360000000000000000 /* SearchStoresViewController.m in Sources */,
+				362F2C590000000000000000 /* StoreDetailsViewController.h in Sources */,
+				17C4CF8C0000000000000000 /* StoreDetailsViewController.m in Sources */,
+				EC0BE7300000000000000000 /* OrderSummaryCell.h in Sources */,
+				5BCAD5A00000000000000000 /* OrderSummaryCell.m in Sources */,
+				25A33BCC0000000000000000 /* AllOrdersViewController.h in Sources */,
+				3AD6A4640000000000000000 /* AllOrdersViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2488A2E30000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		18594B640000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "SQLiteApp";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		230C713E0000000000000000 /* Build configuration list for PBXProject "SQLiteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2488A2E30000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		2DBF97180000000000000000 /* Build configuration list for PBXNativeTarget "SQLiteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18594B640000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2604D4880000000000000000 /* Project object */;
+}

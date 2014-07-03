@@ -93,51 +93,69 @@
     <Reference Include="monotouch" />
     <Reference Include="Mono.Data.Sqlite" />
     <Reference Include="System.Data" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.3\lib\portable-net40+sl4+wp7+win8\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
+    <BundleResource Include="..\..\..\Desktop\SQLiteApp\Resources\Edit.png">
+      <Link>Resources\Edit.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Desktop\SQLiteApp\Resources\PlusSign.png">
+      <Link>Resources\PlusSign.png</Link>
+    </BundleResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
-    <Compile Include="..\..\..\Desktop\SQLiteAppBackend\SQLiteApp\Database.cs">
-      <Link>Backend Source\Database.cs</Link>
-    </Compile>
-    <Compile Include="..\..\..\Desktop\SQLiteAppBackend\SQLiteApp\Order.cs">
-      <Link>Backend Source\Order.cs</Link>
-    </Compile>
-    <Compile Include="..\..\..\Desktop\SQLiteAppBackend\SQLiteApp\Store.cs">
-      <Link>Backend Source\Store.cs</Link>
-    </Compile>
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="View Controllers\AllOrdersViewController.cs" />
-    <Compile Include="View Controllers\AllOrdersViewController.designer.cs">
-      <DependentUpon>AllOrdersViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View Controllers\AllStoresViewController.cs" />
-    <Compile Include="View Controllers\AllStoresViewController.designer.cs">
-      <DependentUpon>AllStoresViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View Controllers\OrderDetailViewController.cs" />
-    <Compile Include="View Controllers\OrderDetailViewController.designer.cs">
-      <DependentUpon>OrderDetailViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View Controllers\SearchStoresViewController.cs" />
-    <Compile Include="View Controllers\SearchStoresViewController.designer.cs">
-      <DependentUpon>SearchStoresViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View Controllers\StoreDetailsViewController.cs" />
-    <Compile Include="View Controllers\StoreDetailsViewController.designer.cs">
-      <DependentUpon>StoreDetailsViewController.cs</DependentUpon>
-    </Compile>
     <Compile Include="TableView Sources\OrderSummarySource.cs" />
     <Compile Include="TableView Sources\StoreNameSource.cs" />
     <Compile Include="TableView Sources\Cell Prototypes\OrderSummaryCell.cs" />
     <Compile Include="TableView Sources\Cell Prototypes\OrderSummaryCell.designer.cs">
       <DependentUpon>OrderSummaryCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View Controllers\Orders\AllOrdersViewController.cs" />
+    <Compile Include="View Controllers\Orders\AllOrdersViewController.designer.cs">
+      <DependentUpon>AllOrdersViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View Controllers\Stores\AllStoresViewController.cs" />
+    <Compile Include="View Controllers\Stores\AllStoresViewController.designer.cs">
+      <DependentUpon>AllStoresViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View Controllers\Stores\SearchStoresViewController.cs" />
+    <Compile Include="View Controllers\Stores\SearchStoresViewController.designer.cs">
+      <DependentUpon>SearchStoresViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View Controllers\Orders\OrderDetailViewController.cs" />
+    <Compile Include="View Controllers\Orders\OrderDetailViewController.designer.cs">
+      <DependentUpon>OrderDetailViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View Controllers\Stores\StoreDetailsViewController.cs" />
+    <Compile Include="View Controllers\Stores\StoreDetailsViewController.designer.cs">
+      <DependentUpon>StoreDetailsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View Controllers\Stores\AddStoreViewController.cs" />
+    <Compile Include="View Controllers\Stores\AddStoreViewController.designer.cs">
+      <DependentUpon>AddStoreViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View Controllers\Stores\StoreEntryViewController.cs" />
+    <Compile Include="View Controllers\Stores\StoreEntryViewController.designer.cs">
+      <DependentUpon>StoreEntryViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\..\Desktop\SQLiteApp\Database.cs">
+      <Link>Backend Source\Database.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Desktop\SQLiteApp\Order.cs">
+      <Link>Backend Source\Order.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Desktop\SQLiteApp\Store.cs">
+      <Link>Backend Source\Store.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -150,10 +168,16 @@
     <Folder Include="View Controllers\" />
     <Folder Include="TableView Sources\" />
     <Folder Include="TableView Sources\Cell Prototypes\" />
+    <Folder Include="View Controllers\Orders\" />
+    <Folder Include="View Controllers\Stores\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\..\..\Desktop\SQLiteAppBackend\SQLiteApp\Stores.sqlite">
       <Link>Content\Stores.sqlite</Link>
+    </Content>
+    <Content Include="..\..\..\Desktop\SQLiteApp\Resources\Delete.png">
+      <Link>Content\Delete.png</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 </Project>

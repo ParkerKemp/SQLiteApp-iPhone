@@ -1,4 +1,4 @@
-# Version: 7.2.4.4 (5485ac2)
+# Version: 7.2.5.4 (e7f4f92)
 # [first argument, ignore] # /Users/Parker/Projects/SQLiteApp/SQLiteApp/bin/iPhoneSimulator/Debug/mtouch.exe
 /Developer/MonoTouch/usr/bin/mtouch \
 	-sdkroot \
@@ -21,6 +21,8 @@
 	/Developer/MonoTouch/usr/lib/mono/2.1/Mono.Data.Sqlite.dll \
 	-r \
 	/Developer/MonoTouch/usr/lib/mono/2.1/System.Data.dll \
+	-r \
+	/Users/Parker/Projects/SQLiteApp/SQLiteApp/../packages/Newtonsoft.Json.6.0.3/lib/portable-net40+sl4+wp7+win8/Newtonsoft.Json.dll \
 	-debug \
 	-nolink \
 	-sdk \

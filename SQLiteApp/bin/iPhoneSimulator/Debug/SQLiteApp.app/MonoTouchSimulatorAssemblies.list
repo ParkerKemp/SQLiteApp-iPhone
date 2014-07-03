@@ -8,3 +8,5 @@ System.Data.dll
 Mono.Data.Tds.dll
 Mono.Security.dll
 System.Transactions.dll
+Newtonsoft.Json.dll
+System.Runtime.Serialization.dll

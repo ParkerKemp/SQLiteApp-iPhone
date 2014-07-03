@@ -1,0 +1,424 @@
+TSQLiteApp
+v6
+r1
+cCheck dependencies
+cCompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AppDelegate-D5F97B88A21B61E5.o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderSummaryCell-1C0B13C2C9E16FD5.o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderSummaryCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllOrdersViewController-3C3967A5719FDBF2.o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllOrdersViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllStoresViewController-CC770013554CB0D8.o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllStoresViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/SearchStoresViewController-BAA5DEC6A56CA5DA.o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/SearchStoresViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderDetailViewController-954FDA9BFB04CFD6.o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderDetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreDetailsViewController-4E8BADCD4F1E68EA.o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreDetailsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AddStoreViewController-85F1FEE2B1BC2801.o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AddStoreViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreEntryViewController-68302295128DDFCC.o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreEntryViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/SQLiteApp.app/SQLiteApp normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053A35CED00000000000003B4
+t1403215085
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053A35CF2000000000000019E
+t1403215090
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053A35CF40000000000446820
+t1403215092
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053A35CF6000000000088D8C0
+t1403215094
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c0000000053A35CF600000000002E6B60
+t1403215094
+s3042144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053A35CF90000000001F1DE10
+t1403215097
+s32628240
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AddStoreViewController.m
+c0000000053B5B3B40000000000000337
+t1404416948
+s823
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllOrdersViewController.m
+c0000000053B5780B00000000000001B9
+t1404401675
+s441
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllStoresViewController.m
+c0000000053B598A900000000000001E7
+t1404410025
+s487
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AppDelegate.m
+c0000000053A43CA30000000000000144
+t1403272355
+s324
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AddStoreViewController-85F1FEE2B1BC2801.o
+t1404418081
+s59148
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllOrdersViewController-3C3967A5719FDBF2.o
+t1404418081
+s42168
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllStoresViewController-CC770013554CB0D8.o
+t1404418081
+s47372
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AppDelegate-D5F97B88A21B61E5.o
+t1404418081
+s2992
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderDetailViewController-954FDA9BFB04CFD6.o
+t1404418081
+s48112
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderSummaryCell-1C0B13C2C9E16FD5.o
+t1404418081
+s43216
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/SQLiteApp.LinkFileList
+c0000000053B5B82100000000000007A8
+t1404418081
+s1960
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/SearchStoresViewController-BAA5DEC6A56CA5DA.o
+t1404418081
+s42236
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreDetailsViewController-4E8BADCD4F1E68EA.o
+t1404418081
+s54932
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreEntryViewController-68302295128DDFCC.o
+t1404418082
+s36904
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/SQLiteApp.app/SQLiteApp
+t2
+s0
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderDetailViewController.m
+c0000000053AAD0870000000000000263
+t1403703431
+s611
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderSummaryCell.m
+c0000000053AAD0870000000000000187
+t1403703431
+s391
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/SearchStoresViewController.m
+c0000000053AACD7B00000000000001BF
+t1403702651
+s447
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreDetailsViewController.m
+c0000000053B5B43200000000000002FB
+t1404417074
+s763
+
+N/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreEntryViewController.m
+c0000000053B598A9000000000000015E
+t1404410025
+s350
+
+CBuild AST from /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AddStoreViewController.m
+r0
+
+CBuild AST from /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllOrdersViewController.m
+r0
+
+CBuild AST from /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllStoresViewController.m
+r0
+
+CBuild AST from /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AppDelegate.m
+r0
+
+CBuild AST from /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderDetailViewController.m
+r0
+
+CBuild AST from /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderSummaryCell.m
+r0
+
+CBuild AST from /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/SearchStoresViewController.m
+r0
+
+CBuild AST from /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreDetailsViewController.m
+r0
+
+CBuild AST from /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreEntryViewController.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb24a35a1ef65b941^6c7c42a1ef65b941^-1447"warning: no rule to process file '/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AppDelegate.h' of type sourcecode.c.h for architecture i386warning: no rule to process file '/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderSummaryCell.h' of type sourcecode.c.h for architecture i386warning: no rule to process file '/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllOrdersViewController.h' of type sourcecode.c.h for architecture i386warning: no rule to process file '/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllStoresViewController.h' of type sourcecode.c.h for architecture i386warning: no rule to process file '/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/SearchStoresViewController.h' of type sourcecode.c.h for architecture i386warning: no rule to process file '/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderDetailViewController.h' of type sourcecode.c.h for architecture i386warning: no rule to process file '/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreDetailsViewController.h' of type sourcecode.c.h for architecture i386warning: no rule to process file '/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AddStoreViewController.h' of type sourcecode.c.h for architecture i386warning: no rule to process file '/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreEntryViewController.h' of type sourcecode.c.h for architecture i3869(21%IDEActivityLogMessage2@149"Warning: no rule to process file '/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AppDelegate.h' of type sourcecode.c.h for architecture i386-426110881#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@154"Warning: no rule to process file '/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderSummaryCell.h' of type sourcecode.c.h for architecture i386-426110881#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@161"Warning: no rule to process file '/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllOrdersViewController.h' of type sourcecode.c.h for architecture i386-426110881#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@161"Warning: no rule to process file '/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllStoresViewController.h' of type sourcecode.c.h for architecture i386-426110881#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@164"Warning: no rule to process file '/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/SearchStoresViewController.h' of type sourcecode.c.h for architecture i386-426110881#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@163"Warning: no rule to process file '/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderDetailViewController.h' of type sourcecode.c.h for architecture i386-426110881#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@164"Warning: no rule to process file '/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreDetailsViewController.h' of type sourcecode.c.h for architecture i386-426110881#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@160"Warning: no rule to process file '/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AddStoreViewController.h' of type sourcecode.c.h for architecture i386-426110881#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@162"Warning: no rule to process file '/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreEntryViewController.h' of type sourcecode.c.h for architecture i386-426110881#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#1#--18"Check dependencies36"C43799DE-B748-478D-8039-51A03A4A1D56-
+
+CCompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AddStoreViewController-85F1FEE2B1BC2801.o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AddStoreViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426110881.716375
+e426110881.960208
+r1
+xCompileC
+xDerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AddStoreViewController-85F1FEE2B1BC2801.o
+x/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AddStoreViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AddStoreViewController.m
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AddStoreViewController.h
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreEntryViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AddStoreViewController.m263"CompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AddStoreViewController-85F1FEE2B1BC2801.o AddStoreViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerda90b7a1ef65b941^78cff5a1ef65b941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AddStoreViewController.m0000000000000000^3996"CompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AddStoreViewController-85F1FEE2B1BC2801.o AddStoreViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-generated-files.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-own-target-headers.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-all-target-headers.hmap -iquote /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-project-headers.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/DerivedSources/i386 -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/DerivedSources -F/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AddStoreViewController-85F1FEE2B1BC2801.d --serialize-diagnostics /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AddStoreViewController-85F1FEE2B1BC2801.dia -c /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AddStoreViewController.m -o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AddStoreViewController-85F1FEE2B1BC2801.o36"B07A09CE-05DF-4E40-9BC2-A2CB6A9D3F2B-
+b836CAEE3-90F3-4373-A59C-F18451E4E1EA
+
+CCompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllOrdersViewController-3C3967A5719FDBF2.o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllOrdersViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426110881.251854
+e426110881.714872
+r1
+xCompileC
+xDerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllOrdersViewController-3C3967A5719FDBF2.o
+x/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllOrdersViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllOrdersViewController.m
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllOrdersViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllOrdersViewController.m265"CompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllOrdersViewController-3C3967A5719FDBF2.o AllOrdersViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8a8e40a1ef65b941^1d02b7a1ef65b941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllOrdersViewController.m0000000000000000^4002"CompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllOrdersViewController-3C3967A5719FDBF2.o AllOrdersViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-generated-files.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-own-target-headers.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-all-target-headers.hmap -iquote /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-project-headers.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/DerivedSources/i386 -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/DerivedSources -F/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllOrdersViewController-3C3967A5719FDBF2.d --serialize-diagnostics /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllOrdersViewController-3C3967A5719FDBF2.dia -c /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllOrdersViewController.m -o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllOrdersViewController-3C3967A5719FDBF2.o36"3D2DA903-4E36-4168-90BA-F654120CDDE9-
+b836CAEE3-90F3-4373-A59C-F18451E4E1EA
+
+CCompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllStoresViewController-CC770013554CB0D8.o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllStoresViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426110881.254864
+e426110881.715265
+r1
+xCompileC
+xDerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllStoresViewController-CC770013554CB0D8.o
+x/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllStoresViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllStoresViewController.m
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllStoresViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllStoresViewController.m265"CompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllStoresViewController-CC770013554CB0D8.o AllStoresViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler902e42a1ef65b941^df1bb7a1ef65b941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllStoresViewController.m0000000000000000^4002"CompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllStoresViewController-CC770013554CB0D8.o AllStoresViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-generated-files.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-own-target-headers.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-all-target-headers.hmap -iquote /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-project-headers.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/DerivedSources/i386 -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/DerivedSources -F/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllStoresViewController-CC770013554CB0D8.d --serialize-diagnostics /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllStoresViewController-CC770013554CB0D8.dia -c /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AllStoresViewController.m -o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllStoresViewController-CC770013554CB0D8.o36"46626A15-5B75-4127-B3E2-92CC504CC3B5-
+b836CAEE3-90F3-4373-A59C-F18451E4E1EA
+
+CCompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AppDelegate-D5F97B88A21B61E5.o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426110881.251136
+e426110881.679549
+r1
+xCompileC
+xDerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AppDelegate-D5F97B88A21B61E5.o
+x/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AppDelegate.m
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AppDelegate.m241"CompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AppDelegate-D5F97B88A21B61E5.o AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1ac340a1ef65b941^51f7ada1ef65b941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AppDelegate.m0000000000000000^3930"CompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AppDelegate-D5F97B88A21B61E5.o AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-generated-files.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-own-target-headers.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-all-target-headers.hmap -iquote /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-project-headers.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/DerivedSources/i386 -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/DerivedSources -F/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AppDelegate-D5F97B88A21B61E5.d --serialize-diagnostics /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AppDelegate-D5F97B88A21B61E5.dia -c /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/AppDelegate.m -o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AppDelegate-D5F97B88A21B61E5.o36"DF1F99CA-1A29-4581-95DB-C34DF6377251-
+b836CAEE3-90F3-4373-A59C-F18451E4E1EA
+
+CCompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderDetailViewController-954FDA9BFB04CFD6.o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderDetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426110881.715222
+e426110881.949177
+r1
+xCompileC
+xDerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderDetailViewController-954FDA9BFB04CFD6.o
+x/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderDetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderDetailViewController.m
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderDetailViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderDetailViewController.m269"CompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderDetailViewController-954FDA9BFB04CFD6.o OrderDetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5d35b7a1ef65b941^390ff3a1ef65b941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderDetailViewController.m0000000000000000^4014"CompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderDetailViewController-954FDA9BFB04CFD6.o OrderDetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-generated-files.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-own-target-headers.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-all-target-headers.hmap -iquote /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-project-headers.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/DerivedSources/i386 -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/DerivedSources -F/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderDetailViewController-954FDA9BFB04CFD6.d --serialize-diagnostics /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderDetailViewController-954FDA9BFB04CFD6.dia -c /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderDetailViewController.m -o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderDetailViewController-954FDA9BFB04CFD6.o36"6A47A71C-A53F-494E-AB90-38C4330ADDDB-
+b836CAEE3-90F3-4373-A59C-F18451E4E1EA
+
+CCompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderSummaryCell-1C0B13C2C9E16FD5.o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderSummaryCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426110881.251456
+e426110881.715111
+r1
+xCompileC
+xDerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderSummaryCell-1C0B13C2C9E16FD5.o
+x/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderSummaryCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderSummaryCell.m
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderSummaryCell.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderSummaryCell.m251"CompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderSummaryCell-1C0B13C2C9E16FD5.o OrderSummaryCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler927540a1ef65b941^5e12b7a1ef65b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderSummaryCell.m0000000000000000^3960"CompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderSummaryCell-1C0B13C2C9E16FD5.o OrderSummaryCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-generated-files.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-own-target-headers.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-all-target-headers.hmap -iquote /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-project-headers.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/DerivedSources/i386 -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/DerivedSources -F/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderSummaryCell-1C0B13C2C9E16FD5.d --serialize-diagnostics /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderSummaryCell-1C0B13C2C9E16FD5.dia -c /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/OrderSummaryCell.m -o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderSummaryCell-1C0B13C2C9E16FD5.o36"235E7093-BD35-457B-B538-D617F3136F0F-
+b836CAEE3-90F3-4373-A59C-F18451E4E1EA
+
+CCompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/SearchStoresViewController-BAA5DEC6A56CA5DA.o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/SearchStoresViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426110881.679770
+e426110881.915935
+r1
+xCompileC
+xDerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/SearchStoresViewController-BAA5DEC6A56CA5DA.o
+x/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/SearchStoresViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/SearchStoresViewController.m
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/SearchStoresViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/SearchStoresViewController.m271"CompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/SearchStoresViewController-BAA5DEC6A56CA5DA.o SearchStoresViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd11faea1ef65b941^2d7beaa1ef65b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/SearchStoresViewController.m0000000000000000^4020"CompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/SearchStoresViewController-BAA5DEC6A56CA5DA.o SearchStoresViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-generated-files.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-own-target-headers.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-all-target-headers.hmap -iquote /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-project-headers.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/DerivedSources/i386 -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/DerivedSources -F/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/SearchStoresViewController-BAA5DEC6A56CA5DA.d --serialize-diagnostics /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/SearchStoresViewController-BAA5DEC6A56CA5DA.dia -c /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/SearchStoresViewController.m -o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/SearchStoresViewController-BAA5DEC6A56CA5DA.o36"45E02781-21F8-439D-AA7B-FF8AED96D8E6-
+b836CAEE3-90F3-4373-A59C-F18451E4E1EA
+
+CCompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreDetailsViewController-4E8BADCD4F1E68EA.o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreDetailsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426110881.715891
+e426110881.956514
+r1
+xCompileC
+xDerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreDetailsViewController-4E8BADCD4F1E68EA.o
+x/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreDetailsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreDetailsViewController.m
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreDetailsViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreDetailsViewController.m271"CompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreDetailsViewController-4E8BADCD4F1E68EA.o StoreDetailsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3561b7a1ef65b941^a0def4a1ef65b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreDetailsViewController.m0000000000000000^4020"CompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreDetailsViewController-4E8BADCD4F1E68EA.o StoreDetailsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-generated-files.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-own-target-headers.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-all-target-headers.hmap -iquote /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-project-headers.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/DerivedSources/i386 -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/DerivedSources -F/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreDetailsViewController-4E8BADCD4F1E68EA.d --serialize-diagnostics /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreDetailsViewController-4E8BADCD4F1E68EA.dia -c /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreDetailsViewController.m -o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreDetailsViewController-4E8BADCD4F1E68EA.o36"97342F4B-8582-4838-A15B-E427F0559593-
+b836CAEE3-90F3-4373-A59C-F18451E4E1EA
+
+CCompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreEntryViewController-68302295128DDFCC.o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreEntryViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426110881.916182
+e426110882.129875
+r1
+xCompileC
+xDerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreEntryViewController-68302295128DDFCC.o
+x/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreEntryViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreEntryViewController.m
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreEntryViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreEntryViewController.m267"CompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreEntryViewController-68302295128DDFCC.o StoreEntryViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6aa3eaa1ef65b941^464021a2ef65b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreEntryViewController.m0000000000000000^4008"CompileC DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreEntryViewController-68302295128DDFCC.o StoreEntryViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-generated-files.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-own-target-headers.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-all-target-headers.hmap -iquote /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/SQLiteApp-project-headers.hmap -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/DerivedSources/i386 -I/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/DerivedSources -F/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreEntryViewController-68302295128DDFCC.d --serialize-diagnostics /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreEntryViewController-68302295128DDFCC.dia -c /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/StoreEntryViewController.m -o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreEntryViewController-68302295128DDFCC.o36"778E568C-DBEC-484C-971F-3B89A2306ADA-
+b836CAEE3-90F3-4373-A59C-F18451E4E1EA
+
+CCompileStoryboard /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/MainStoryboard.storyboard
+r0
+
+CCopyPlistFile /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/SQLiteApp.app/Entitlements.plist Entitlements.plist
+r0
+
+CCopyPlistFile /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/SQLiteApp.app/Info.plist Info.plist
+r0
+
+CCpResource Default-568h@2x.png DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/SQLiteApp.app/Default-568h@2x.png
+r0
+
+CCpResource Edit.png DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/SQLiteApp.app/Edit.png
+r0
+
+CCpResource PlusSign.png DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/SQLiteApp.app/PlusSign.png
+r0
+
+CGenerateDSYMFile /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/SQLiteApp.app.dSYM /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/SQLiteApp.app/SQLiteApp
+r0
+
+CLd /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/SQLiteApp.app/SQLiteApp normal i386
+s426110882.130961
+e426110882.221097
+r0
+xLd
+x/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/SQLiteApp.app/SQLiteApp
+xnormal
+xi386
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/SQLiteApp.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AppDelegate-D5F97B88A21B61E5.o
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderSummaryCell-1C0B13C2C9E16FD5.o
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllOrdersViewController-3C3967A5719FDBF2.o
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AllStoresViewController-CC770013554CB0D8.o
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/SearchStoresViewController-BAA5DEC6A56CA5DA.o
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/OrderDetailViewController-954FDA9BFB04CFD6.o
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreDetailsViewController-4E8BADCD4F1E68EA.o
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/AddStoreViewController-85F1FEE2B1BC2801.o
+d/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/StoreEntryViewController-68302295128DDFCC.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+oUndefined symbols for architecture i386:
+o  "_main", referenced from:
+o      start in crt1.o
+old: symbol(s) not found for architecture i386
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Link /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/SQLiteApp.app/SQLiteApp101"Ld DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/SQLiteApp.app/SQLiteApp normal i3867c9821a2ef65b941^5b9938a2ef65b941^-217"Undefined symbols for architecture i386:  "_main", referenced from:      start in crt1.old: symbol(s) not found for architecture i386clang: error: linker command failed with exit code 1 (use -v to see invocation)4(21%IDEActivityLogMessage2@25""_main", referenced from:-426110882#41#28#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@15"Start in crt1.o-426110882#69#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@41"Symbol(s) not found for architecture i386-426110882#91#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-426110882#137#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--0#0#1#--1674"Ld DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/SQLiteApp.app/SQLiteApp normal i386    cd /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator -F/Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator -filelist /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/SQLiteApp.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework UIKit -framework MapKit -framework Foundation -framework CoreGraphics -Xlinker -dependency_info -Xlinker /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Intermediates/SQLiteApp.build/MonoTouch-iphonesimulator/SQLiteApp.build/Objects-normal/i386/SQLiteApp_dependency_info.dat -o /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/SQLiteApp.app/SQLiteApp36"104F71D6-9D97-4331-9536-2215F2699C6B-
+b836CAEE3-90F3-4373-A59C-F18451E4E1EA
+
+CTouch /Users/Parker/Projects/SQLiteApp/SQLiteApp/obj/Xcode/38/DerivedData/SQLiteApp/Build/Products/MonoTouch-iphonesimulator/SQLiteApp.app
+r0
+
